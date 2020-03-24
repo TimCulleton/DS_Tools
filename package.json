@@ -1,0 +1,28 @@
+{
+  "name": "ds_tools",
+  "version": "1.0.0",
+  "description": "DS Dev Tools",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "tsc -p ./",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimCulleton/DS_Tools.git"
+  },
+  "author": "Tim Culleton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimCulleton/DS_Tools/issues"
+  },
+  "homepage": "https://github.com/TimCulleton/DS_Tools#readme",
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.3",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1",
+    "ts-lint": "^4.5.1",
+    "typescript": "^3.8.3"
+  }
+}
